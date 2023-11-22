@@ -30,7 +30,6 @@ function oddNumberCount(num)
         if (i%2 !== 0) // condition to check if number is odd
         {
             counter++ // increment the counter
-            console.log(i)
         }
     }
     return counter
