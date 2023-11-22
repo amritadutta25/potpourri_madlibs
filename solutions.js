@@ -13,10 +13,10 @@ function setAlarm(employed, vacationing)
     }
 }
 
-// console.log(setAlarm(true, true)) // => returns false
-// console.log(setAlarm(false, false)) // => returns false
-// console.log(setAlarm(false, true)) // => returns false
-// console.log(setAlarm(true, false)) // => returns true
+console.log(setAlarm(true, true)) // => returns false
+console.log(setAlarm(false, false)) // => returns false
+console.log(setAlarm(false, true)) // => returns false
+console.log(setAlarm(true, false)) // => returns true
 
 //-------------------
 //Count Odd Numbers
@@ -35,8 +35,8 @@ function oddNumberCount(num)
     return counter
 }
 
-// console.log(oddNumberCount(7))
-// console.log(oddNumberCount(16))
+console.log(oddNumberCount(7))
+console.log(oddNumberCount(16))
 
 //-------------------
 //Disemvoweling Trolls
@@ -54,7 +54,7 @@ function trollsBeGone(line)
     line = line.replace(/[aeiou]/gi, '')
     return line
 }
-// console.log(trollsBeGone("This website is for losers LOL"))
+console.log(trollsBeGone("This website is for losers LOL"))
 
 //-------------------
 //Bank Account Summary
@@ -78,7 +78,7 @@ function bankAccountSummary(bankinfo)
     return total
 }
 const bankTotal = bankAccountSummary(bankInfo)
-// console.log(bankTotal)
+console.log(bankTotal)
 
 function inTheRed(total)
 {
@@ -90,6 +90,6 @@ function inTheRed(total)
         return false
     }
 }
-// console.log(inTheRed(bankTotal))
+console.log(inTheRed(bankTotal))
 
 
